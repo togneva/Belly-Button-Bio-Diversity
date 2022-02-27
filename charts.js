@@ -167,7 +167,9 @@ function buildCharts(sample) {
     var gaugeData = {
       domain: { x: [0, 1], y: [0, 1] },
       value: frequency,
-      // title: {text: "".append("h4").text("Belly Button Washing Frequency").append("h6").text("Scrubs per Week")},
+      title: {text: "Belly Button Washing Frequency <br><sup>Scrubs per Week</sup>"},
+      // {* "<h3>" + "Belly Button Washing Frequency" + "</h3>" + "<h4>" + "Scrubs per Week" + "</h4>"}, */}
+      
       
 
       type: "indicator",
@@ -193,8 +195,8 @@ function buildCharts(sample) {
         
     // 5. Create the layout for the gauge chart.
     var gaugeLayout = { 
-      width: 700, 
-      height: 400
+      // width: 700, 
+      // height: 400
     };
 
     // 6. Use Plotly to plot the gauge data and layout.

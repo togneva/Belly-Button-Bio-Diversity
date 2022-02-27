@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en">Tuto
 
 <head>
   <meta charset="UTF-8">
@@ -9,23 +9,32 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 
+
 <body>
 
   <div class="container">
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
+        
+        
+        <!-- <img src="human-microbiome2.jpeg" alt="Human Microbiome" width = auto height = auto 
+        class="img-responsive"
+        alt="Responsive image">
+    </img> -->
+    <style> 
+      h1 {
+       background-image: url('human-microbiome2.jpeg');
+     }
+     </style>
         <h1>Belly Button Biodiversity Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
-        <!-- <img
-        <img src="human-microbiome.jpg" alt="Human Microbiome" height = 200>
-          class="img-responsive"
-          alt="Responsive image"
-      </img> -->
+        <p style="color:DodgerBlue;">Use the interactive charts below to explore the dataset</p>
+        <!-- <p>Use the interactive charts below to explore the dataset</p> -->
+        
       </div>
       </div>
     <div class="row">
       <div class="col-md-2">
-        <div class="well">
+        <div class="well"; style="background-color: yellow;">
           <h5>Test Subject ID No.:</h5>
             <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
